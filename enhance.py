@@ -5,6 +5,12 @@ import streamlit as st
 from PIL import Image
 import datetime  # Import the datetime module
 
+# Set page config with a title and favicon
+st.set_page_config(
+    page_title="Enhance picture",
+    page_icon=":robot:",
+)
+
 # --- Input and Output Folders ---
 input_folder = 'sumber'  # Replace with your input folder path
 output_folder = 'hasil'   # Replace with your output folder path
